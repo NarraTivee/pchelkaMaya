@@ -1,1 +1,124 @@
-# pchelkaMaya
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <style type="text/tailwindcss">
+        @theme {
+        --color-clifford: #da373d;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header class='w-[100%] h-10 bg-yellow-500 flex items-center justify-around'>
+        <nav class='w-[100%]'>
+            <ul class='w-[100%] flex items-center justify-around text-white'>
+                <li><a href="#" class="hover:underline p-2 block">About Us</a></li>
+                <li><a href="#" class="hover:underline p-2 block">Main</a></li>
+                <li><a href="#" class="hover:underline p-2 block">Our Products</a></li>
+                <li><a href="#" class="hover:underline p-2 block">Information</a></li>
+                <li><a href="#" class="hover:underline p-2 block">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class='p-2 md:p-3 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6'>
+        <main class='w-[100%]'>
+            <h1 class='font-bold text-2xl'>Honey initial-scale</h1>
+            <p class='leading-none font-serif'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum hic
+                perferendis, ea
+                quam ipsum excepturi
+                quidem eveniet nobis necessitatibus pariatur cum quia molestias, esse assumenda! Pariatur facere quasi
+                magnam qui, sapiente culpa officiis mollitia similique aspernatur suscipit delectus porro fuga laborum
+                et eligendi cumque harum. Eos, possimus distinctio dolor quae nobis officiis provident vel eaque
+                voluptatibus tenetur nulla qui. Autem veritatis velit aliquam reiciendis consequatur tenetur veniam eum
+                cupiditate optio at dolores, est, tempora nesciunt vitae eos laborum ab. Facere tenetur vel dolorum
+                nostrum suscipit inventore, rerum quod tempore totam! Eos placeat pariatur architecto omnis suscipit
+                modi esse amet similique?</p>
+            <p class='my-3'>
+                <img src="images/bee.jpg" alt="картинка пчелки" class="w-full h-auto rounded-lg shadow-md">
+            </p>
+            <p class='leading-none font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, pariatur. A,
+                omnis quidem
+                illum pariatur
+                repellat ipsam vel facere eligendi voluptates provident, deleniti commodi ratione odio, doloremque id
+                maiores. Aliquam molestias excepturi vero numquam, nemo velit quos maxime nam a aspernatur cumque quam
+                perferendis culpa consequuntur tempora quidem accusantium? Dolorem earum a aspernatur, minima quasi ipsa
+                quidem illum quis doloremque, in dolores facilis ducimus tempora placeat expedita repudiandae
+                perspiciatis dolorum!</p>
+            <h1 class='font-bold text-2xl'>Honey Price</h1>
+            <div class="overflow-x-auto">
+                <table class='min-w-[600px] mt-3'>
+                    <tr>
+                        <th class='text-center border border-black p-4'>Type</th>
+                        <th class='text-center border border-black p-4'>Price</th>
+                        <th class='text-center border border-black p-4'>Availability</th>
+                    </tr>
+                    <tr>
+                        <td class='text-center border border-black p-4'>Linded</td>
+                        <td class='text-center border border-black p-4'>20$ per liter</td>
+                        <td class='text-center border border-black p-4'>10 tons</td>
+                    </tr>
+                    <tr>
+                        <td class='text-center border border-black p-4'>Pine</td>
+                        <td class='text-center border border-black p-4'>30$ per liter</td>
+                        <td class='text-center border border-black p-4'>7 tons</td>
+                    </tr>
+                    <tr>
+                        <td class='text-center border border-black p-4'>Clover</td>
+                        <td class='text-center border border-black p-4'>40$</td>
+                        <td class='text-center border border-black p-4'>5 tons</td>
+                    </tr>
+                    <tr>
+                        <td class='text-center border border-black p-4'>Dandelion</td>
+                        <td class='text-center border border-black p-4'>50$</td>
+                        <td class='text-center border border-black p-4'>1 ton</td>
+                    </tr>
+                </table>
+            </div>
+            <h1 class='font-bold text-2xl'>Honey best jdskfsdhf</h1>
+            <p class='mt-2'>
+                <img src="images/bee2.jpg" alt="картинка пчелки" class="w-full h-auto rounded-lg shadow-md">
+            </p>
+        </main>
+        <aside class='px-6 box-border'>
+            <section>
+                <h2 class='font-bold text-2xl'>Benefts of Honey</h2>
+                <ul class='leading-none mb-6'>
+                    <li class='mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque similique
+                        adipisci quae quas
+                        repellendus nostrum, ab soluta praesentium odit eveniet beatae quibusdam velit provident
+                        incidunt tempora excepturi sed accusantium! Minima?</li>
+                    <li class='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates
+                        quaerat aut vel
+                        temporibus. Optio, corrupti ut, ipsa debitis iste cupiditate sed, atque rerum temporibus quo
+                        omnis vel possimus itaque.</li>
+                    <li class='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates
+                        quaerat aut vel
+                        temporibus. Optio, corrupti ut, ipsa debitis iste cupiditate sed, atque rerum temporibus quo
+                        omnis vel possimus itaque.</li>
+                </ul>
+                <h2 class='font-bold text-2xl mt-6'>Honey Harmsdfsdfds dsfsd</h2>
+                <ul class='leading-none'>
+                    <li class='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates
+                        quaerat aut vel
+                        temporibus. Optio, corrupti ut, ipsa debitis iste cupiditate sed, atque rerum temporibus quo
+                        omnis vel possimus itaque.</li>
+                    <li class='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates
+                        quaerat aut vel
+                        temporibus. Optio, corrupti ut, ipsa debitis iste cupiditate sed, atque rerum temporibus quo
+                        omnis vel possimus itaque.</li>
+                </ul>
+                </ul>
+            </section>
+        </aside>
+    </div>
+    <footer class='w-full py-4 flex items-center justify-center bg-yellow-500 text-white'>
+        <h1>Я красавчик , блин)</h1>
+    </footer>
+</body>
+
+</html>
